@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <section>
+        <div class="grid-container">
+            <div id="header" class="grid-item">
+                <h1>Expense Tracker</h1>
+            </div>
+
+            <div id="input-container" class="grid-item">
+                
+                    <div id="input-area" >
+                        <div id="greeting-text"> 
+                            <p id="date"></p>
+                            <h2>Happy <span></span> </h2>
+                            
+                        </div>
+
+                        <form action="">
+                            <input list="type-data" id="type-data-list" name="browser" placeholder="Choose one" required>
+                                <datalist id="type-data">
+                                    <option value="spend">
+                                    <option value="income">
+                                </datalist>  
+                            <input id="description-text" placeholder="Description" required>
+                            <input id="amount" placeholder="$$$$$" required>
+                            <input type="submit" value="Submit" id="submit-btn">
+                          </form>  
+                    </div>
+            </div>
+
+            <div id="data-container" class="grid-item">
+                <div id="spend-container">
+                    <h3>Spend</h3>
+                    <ul id="data-list-spend"> 
+                       
+                    </ul> 
+                </div>
+                
+                <div id="income-container">
+                    <h3>Income</h3>
+                    <ul id="data-list-income"> 
+                       
+                    </ul> 
+                </div>
+                
+            </div>
+
+
+        </div>
+        <!-- <div id="header" class="grid-item">
+            <h1>Expense Tracker</h1>
+            <p id="date"> Date: </p>
+        </div>
+
+        <div id="nav-bar" class="grid-item">
+            <ul>
+                <li><a href="#">spend</a></li>
+                <li><a href="#">income</a></li>
+                <li><a href="#">bills</a></li>
+                <li><a href="#">overview</a></li>
+            </ul>
+        </div>
+
+        <div id="text-area-container" class="grid-item">
+            <div id="s1">
+                <div class="text-s1">
+                    <h2>Track and Manage <br>Your Money</h2>
+                    <button><a href="#"> Get Started</a></button>
+                </div>
+               <div class="image">
+                   <img src="images/S4_Growth.jpg" alt="">
+                </div>
+                
+            </div> -->
+            
+            <!-- <table>
+                <thead>
+                    <tr>
+                        <th>Description</th>
+                        <th>$$$$$</th>
+                        <th>Memo</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><input type="text" name="" id="description"></td>
+                        <td><input type="text" name="" id="amount" ></td>
+                        <td><input type="text" name="" id="memo" ></td>
+                        <td><i class="fas fa-check-circle" id="save-btn"></i><i class="fas fa-plus-circle" id=""></i></td>
+                        
+                    </tr>
+                </tbody>
+                    
+                
+            </table> -->
+        <!-- </div>
+        
+
+        <div id="footer" class="grid-item">
+            <h3>Deigned by Pattanawadee Winyarat</h3>
+        </div> -->
+    </section>
+
+    
+
+    
+    
+    <script src="App.js"></script>
+</body>
+</html>
