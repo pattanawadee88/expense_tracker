@@ -3,8 +3,7 @@
     --secondaryTextColor: white;
     --bgColor: white;
     --secondaryBgColor: black;
-    --btnBgColor: #ff8906;
-    
+    --btnBgColor: #ff8906;  
 }
 *{
     margin: 0 auto;
