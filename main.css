@@ -107,9 +107,6 @@ ul {
 
 ul li {
     list-style: none;
-    /* margin-bottom: 2em; */
-    
-    /* border: 2px solid red; */
 }
 
 a {
@@ -142,18 +139,6 @@ i {
 input:focus {
     font-size: 1rem;   
 }
-/* 
-#footer{
-    background-image: url(images/yellow-shape.svg);
-    grid-area: footer; 
-    height: 100px;
-}
-
-#footer h3{
-    font-size: 0.8rem;
-    text-align: center;
-    margin-top: 3em;
-} */
 
 form {
     margin-top: 2em;
