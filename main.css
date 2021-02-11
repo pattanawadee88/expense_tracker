@@ -7,13 +7,13 @@
 }
 *{
     margin: 0 auto;
+    font-family: 'Righteous', cursive;  
 }
 body {
     background-color: var(--bgColor);
 }
 h1, h2, h3, h4, p, a, span{
-    color: var(--primaryTextColor);
-    font-family: 'Righteous', cursive;   
+    color: var(--primaryTextColor); 
 }
 h1,h2,h3,span {
     text-transform: uppercase; 
@@ -88,7 +88,6 @@ span {
     background-color: var(--secondaryBgColor);
     border-radius: 30px;
     margin-top: 2em;
-    height: 300px;
     width: 90%;
     padding: 2em;
     color: var(--secondaryTextColor);
@@ -99,13 +98,22 @@ span {
 #income-container{
     grid-area: income-container;
 }
+.header{
+    font-size: 2em;
+}
 ul {
-    text-align: center;  
-    
+    text-align: center;    
 }
 
 ul li {
     list-style: none;
+    background-color: var(--secondaryTextColor);
+    color: black;
+    font-size: 1em;
+    border-radius: 5px;
+    padding: 1em;
+    width: fit-content;
+    margin-bottom: 3px;
 }
 
 a {
@@ -122,8 +130,6 @@ input {
     border-radius: 4px;
     /* width: 80%; */
     outline: none;
-    
-    
 }
 #submit-btn{
     background-color: var(--btnBgColor);
